@@ -41,12 +41,12 @@
             this.trianguloBaseTextBox = new System.Windows.Forms.TextBox();
             this.trianguloAlturaTextBox = new System.Windows.Forms.TextBox();
             this.trianguloAlturaLabel = new System.Windows.Forms.Label();
-            this.TrianguloLado3Label = new System.Windows.Forms.Label();
-            this.TrianguloLado3TextBox = new System.Windows.Forms.TextBox();
-            this.TrianguloLado2Label = new System.Windows.Forms.Label();
-            this.TrianguloLado2TextBox = new System.Windows.Forms.TextBox();
-            this.TrianguloLado1TextBox = new System.Windows.Forms.TextBox();
-            this.TrianguloLado1Label = new System.Windows.Forms.Label();
+            this.trianguloLado3Label = new System.Windows.Forms.Label();
+            this.trianguloLado3TextBox = new System.Windows.Forms.TextBox();
+            this.trianguloLado2Label = new System.Windows.Forms.Label();
+            this.trianguloLado2TextBox = new System.Windows.Forms.TextBox();
+            this.trianguloLado1TextBox = new System.Windows.Forms.TextBox();
+            this.trianguloLado1Label = new System.Windows.Forms.Label();
             this.CuadradoLadoLabel = new System.Windows.Forms.Label();
             this.CuadradoLadoTextBox = new System.Windows.Forms.TextBox();
             this.circuloPerimetroTextBox = new System.Windows.Forms.TextBox();
@@ -103,12 +103,12 @@
             // 
             // trianguloTabPage
             // 
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado1Label);
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado1TextBox);
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado2Label);
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado2TextBox);
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado3Label);
-            this.trianguloTabPage.Controls.Add(this.TrianguloLado3TextBox);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado1Label);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado1TextBox);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado2Label);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado2TextBox);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado3Label);
+            this.trianguloTabPage.Controls.Add(this.trianguloLado3TextBox);
             this.trianguloTabPage.Controls.Add(this.trianguloAlturaLabel);
             this.trianguloTabPage.Controls.Add(this.trianguloAlturaTextBox);
             this.trianguloTabPage.Controls.Add(this.trianguloBaseTextBox);
@@ -222,59 +222,59 @@
             this.trianguloAlturaLabel.Text = "Altura:";
             this.trianguloAlturaLabel.Click += new System.EventHandler(this.label3_Click);
             // 
-            // TrianguloLado3Label
+            // trianguloLado3Label
             // 
-            this.TrianguloLado3Label.AutoSize = true;
-            this.TrianguloLado3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TrianguloLado3Label.Location = new System.Drawing.Point(25, 189);
-            this.TrianguloLado3Label.Name = "TrianguloLado3Label";
-            this.TrianguloLado3Label.Size = new System.Drawing.Size(64, 18);
-            this.TrianguloLado3Label.TabIndex = 6;
-            this.TrianguloLado3Label.Text = "Lado 3:";
-            this.TrianguloLado3Label.Click += new System.EventHandler(this.label2_Click);
+            this.trianguloLado3Label.AutoSize = true;
+            this.trianguloLado3Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trianguloLado3Label.Location = new System.Drawing.Point(25, 189);
+            this.trianguloLado3Label.Name = "trianguloLado3Label";
+            this.trianguloLado3Label.Size = new System.Drawing.Size(64, 18);
+            this.trianguloLado3Label.TabIndex = 6;
+            this.trianguloLado3Label.Text = "Lado 3:";
+            this.trianguloLado3Label.Click += new System.EventHandler(this.label2_Click);
             // 
-            // TrianguloLado3TextBox
+            // trianguloLado3TextBox
             // 
-            this.TrianguloLado3TextBox.Location = new System.Drawing.Point(95, 189);
-            this.TrianguloLado3TextBox.Name = "TrianguloLado3TextBox";
-            this.TrianguloLado3TextBox.Size = new System.Drawing.Size(155, 20);
-            this.TrianguloLado3TextBox.TabIndex = 5;
-            this.TrianguloLado3TextBox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.trianguloLado3TextBox.Location = new System.Drawing.Point(95, 189);
+            this.trianguloLado3TextBox.Name = "trianguloLado3TextBox";
+            this.trianguloLado3TextBox.Size = new System.Drawing.Size(155, 20);
+            this.trianguloLado3TextBox.TabIndex = 5;
+            this.trianguloLado3TextBox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // TrianguloLado2Label
+            // trianguloLado2Label
             // 
-            this.TrianguloLado2Label.AutoSize = true;
-            this.TrianguloLado2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TrianguloLado2Label.Location = new System.Drawing.Point(25, 152);
-            this.TrianguloLado2Label.Name = "TrianguloLado2Label";
-            this.TrianguloLado2Label.Size = new System.Drawing.Size(64, 18);
-            this.TrianguloLado2Label.TabIndex = 8;
-            this.TrianguloLado2Label.Text = "Lado 2:";
+            this.trianguloLado2Label.AutoSize = true;
+            this.trianguloLado2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trianguloLado2Label.Location = new System.Drawing.Point(25, 152);
+            this.trianguloLado2Label.Name = "trianguloLado2Label";
+            this.trianguloLado2Label.Size = new System.Drawing.Size(64, 18);
+            this.trianguloLado2Label.TabIndex = 8;
+            this.trianguloLado2Label.Text = "Lado 2:";
             // 
-            // TrianguloLado2TextBox
+            // trianguloLado2TextBox
             // 
-            this.TrianguloLado2TextBox.Location = new System.Drawing.Point(95, 152);
-            this.TrianguloLado2TextBox.Name = "TrianguloLado2TextBox";
-            this.TrianguloLado2TextBox.Size = new System.Drawing.Size(155, 20);
-            this.TrianguloLado2TextBox.TabIndex = 7;
+            this.trianguloLado2TextBox.Location = new System.Drawing.Point(95, 152);
+            this.trianguloLado2TextBox.Name = "trianguloLado2TextBox";
+            this.trianguloLado2TextBox.Size = new System.Drawing.Size(155, 20);
+            this.trianguloLado2TextBox.TabIndex = 7;
             // 
-            // TrianguloLado1TextBox
+            // trianguloLado1TextBox
             // 
-            this.TrianguloLado1TextBox.Location = new System.Drawing.Point(95, 114);
-            this.TrianguloLado1TextBox.Name = "TrianguloLado1TextBox";
-            this.TrianguloLado1TextBox.Size = new System.Drawing.Size(155, 20);
-            this.TrianguloLado1TextBox.TabIndex = 9;
+            this.trianguloLado1TextBox.Location = new System.Drawing.Point(95, 114);
+            this.trianguloLado1TextBox.Name = "trianguloLado1TextBox";
+            this.trianguloLado1TextBox.Size = new System.Drawing.Size(155, 20);
+            this.trianguloLado1TextBox.TabIndex = 9;
             // 
-            // TrianguloLado1Label
+            // trianguloLado1Label
             // 
-            this.TrianguloLado1Label.AutoSize = true;
-            this.TrianguloLado1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TrianguloLado1Label.Location = new System.Drawing.Point(25, 114);
-            this.TrianguloLado1Label.Name = "TrianguloLado1Label";
-            this.TrianguloLado1Label.Size = new System.Drawing.Size(64, 18);
-            this.TrianguloLado1Label.TabIndex = 10;
-            this.TrianguloLado1Label.Text = "Lado 1:";
-            this.TrianguloLado1Label.Click += new System.EventHandler(this.lado1Label_Click);
+            this.trianguloLado1Label.AutoSize = true;
+            this.trianguloLado1Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.trianguloLado1Label.Location = new System.Drawing.Point(25, 114);
+            this.trianguloLado1Label.Name = "trianguloLado1Label";
+            this.trianguloLado1Label.Size = new System.Drawing.Size(64, 18);
+            this.trianguloLado1Label.TabIndex = 10;
+            this.trianguloLado1Label.Text = "Lado 1:";
+            this.trianguloLado1Label.Click += new System.EventHandler(this.lado1Label_Click);
             // 
             // CuadradoLadoLabel
             // 
@@ -438,12 +438,12 @@
         private System.Windows.Forms.TextBox trianguloBaseTextBox;
         private System.Windows.Forms.Label trianguloBaseLabel;
         private System.Windows.Forms.Label trianguloAlturaLabel;
-        private System.Windows.Forms.TextBox TrianguloLado1TextBox;
-        private System.Windows.Forms.Label TrianguloLado2Label;
-        private System.Windows.Forms.TextBox TrianguloLado2TextBox;
-        private System.Windows.Forms.Label TrianguloLado3Label;
-        private System.Windows.Forms.TextBox TrianguloLado3TextBox;
-        private System.Windows.Forms.Label TrianguloLado1Label;
+        private System.Windows.Forms.TextBox trianguloLado1TextBox;
+        private System.Windows.Forms.Label trianguloLado2Label;
+        private System.Windows.Forms.TextBox trianguloLado2TextBox;
+        private System.Windows.Forms.Label trianguloLado3Label;
+        private System.Windows.Forms.TextBox trianguloLado3TextBox;
+        private System.Windows.Forms.Label trianguloLado1Label;
         private System.Windows.Forms.TextBox CuadradoLadoTextBox;
         private System.Windows.Forms.Label CuadradoLadoLabel;
         private System.Windows.Forms.TextBox circuloRadioTextBox;
