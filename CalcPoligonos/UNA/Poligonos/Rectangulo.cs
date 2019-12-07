@@ -13,19 +13,19 @@ namespace UNA.Poligonos
             set;
         }
 
-        public double Base
+        public double Lado
         {
             get;
             set;
         }
         public double CalcularArea()
         {
-            return Base * Altura;
+            return Lado * Altura;
         }
 
         public double CalcularPerimetro()
         {
-            return Altura * 2 + Base * 2;
+            return Altura * 2 + Lado * 2;
         }
     }
 }
